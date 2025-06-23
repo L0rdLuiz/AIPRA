@@ -62,7 +62,7 @@ app.post('/api/enviar-formulario', async (req, res) => {
     });
     console.log('✅ Dados salvos no banco');
 
-    
+    // Envia o e-mail
     await transporter.sendMail(mailOptions);
     console.log('✅ Email enviado');
 
