@@ -14,4 +14,4 @@ se aparecer "Servidor rodando na porta 3000" no terminar é pq funcionou
 
 depois disso é só ir no http://localhost:3000/formulario.html e testar.
 
-PS: PRECISA COLOCAR UM EMAIL E A SENHA DE APP VALIDA LA NO server.js LINHA 33 e 34.
+PS: PRECISA COLOCAR UM EMAIL NO .env
