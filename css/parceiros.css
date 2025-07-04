@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #48a6a8;
+  font-weight: 500;
+}
+
+nav a.btn {
+  background-color: #48a6a8;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 10px;
+}
+
+nav a.btn:hover{
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: #444;
+
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 30px;
+}
+
+.topo img {
+  width: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.topo .texto {
+  max-width: 600px;
+}
+
+.topo h1 {
+  color: #48a6a8;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.nossos-parceiros {
+  background-color: #e6f7f8;
+  padding: 40px;
+  text-align: center;
+}
+
+.nossos-parceiros h2 {
+  color: #48a6a8;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 40px);
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  max-width: 350px;
+  border-radius: 30px;
+
+
+
+}
+
+.ultimo-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.card h3 {
+  color: #48a6a8;
+  margin-bottom: 10px;
+}
+
+p{
+  text-align: justify;
+  line-height: 1.15;
+
+
+}
