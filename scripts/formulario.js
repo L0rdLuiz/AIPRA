@@ -10,7 +10,7 @@ form.addEventListener('submit', async (e) => {
   const dados = Object.fromEntries(new FormData(form));
 
   try {
-    const resposta = await fetch('/api/enviar-formulario', {
+    const resposta = await fetch('https://aipra-back.onrender.com/api/enviar-formulario', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(dados)
