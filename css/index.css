@@ -6,47 +6,47 @@ body {
   color: #333;
 }
 
-/* Estilos para o header */
 header {
     background-color: white;
     padding: 10px 40px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Flex entre logo e navegação */
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* Logo e texto "Aipra" */
 .logo-content {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-/* Imagem do logo */
+
 .logo-content img {
     height: 40px;
 }
 
-/* Texto "Aipra" */
+
 .logo-content h1 {
-    font-size: 28px;  /* aumentei o tamanho aqui */
+    font-size: 28px;  
     color: #4c2e1d;
     margin: 0;
 }
 
-/* Links da navegação */
+.logo-content a {
+  text-decoration: none;
+  color: #333;
+}
+
 nav {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-/* Botão "Doações" */
 nav .btn {
     background-color: #49a6b4;
     color: white;
@@ -62,7 +62,6 @@ nav .btn:hover {
     background-color: #3a8a95;
 }
 
-/* Demais links */
 nav a:not(.btn) {
     color: #49a6b4;
     text-decoration: none;
@@ -75,7 +74,7 @@ nav a:not(.btn):hover {
 }
 
 .banner {
-  background-image: url('/img/foto21cris.jpg'); /* substitua pela sua imagem */
+  background-image: url('/img/foto21cris.jpg'); 
   background-size: cover;
   background-position: center;
   padding: 60px 40px;

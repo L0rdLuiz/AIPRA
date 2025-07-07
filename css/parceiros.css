@@ -5,57 +5,94 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  border-bottom: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 40px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #444;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-nav a {
-  margin-left: 20px;
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.logo-content img {
+    height: 40px;
+}
+
+
+.logo-content h1 {
+    font-size: 28px;  
+    color: #4c2e1d;
+    margin: 0;
+}
+
+.logo-content a {
   text-decoration: none;
-  color: #48a6a8;
-  font-weight: 500;
+  color: #333;
 }
 
-nav a.btn {
-  background-color: #48a6a8;
-  color: white;
-  padding: 6px 14px;
-  border-radius: 10px;
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-nav a.btn:hover{
-  padding: 8px 15px;
-  border-radius: 10px;
-  background-color: #444;
-
+nav .btn {
+    background-color: #49a6b4;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
 }
+
+nav .btn:hover {
+    background-color: #3a8a95;
+}
+
+nav a:not(.btn) {
+    color: #49a6b4;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:not(.btn):hover {
+    color: #357c85;
+}
+
 
 .topo {
-  display: flex;
-  align-items: center;
+  display: flex;        
+  align-items: center;    
+  justify-content: center;
+  gap: 40px;             
   padding: 40px;
-  gap: 30px;
 }
 
+
 .topo img {
-  width: 300px;
+  width: 600px;           
   border-radius: 20px;
   object-fit: cover;
 }
 
-.topo .texto {
-  max-width: 600px;
-}
 
+.topo .texto {
+  max-width: 800px;       
+  text-align: center;     
+}
 .topo h1 {
   color: #48a6a8;
   font-size: 32px;
@@ -113,4 +150,16 @@ p{
   line-height: 1.15;
 
 
+}
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 301px; 
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+p{
+  color: #48a6a8;
 }
